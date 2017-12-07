@@ -33,7 +33,7 @@ Find the element with the class name of "profile":
 	- Change the styles of the font-family to Sans Serif
 */
 
-document.getElementsByClassName("profile").innerHTML = "Bush Did 9/11";
+document.getElementsByClassName("profile")[0].innerHTML = "Bush Did 9/11";
 document.getElementsByClassName("profile").style.fontFamily = "Sans Serif";
 
 /*5. Bruce Lee
