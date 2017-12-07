@@ -5,13 +5,16 @@
 Find the element with the id of "name1":
 	- Replace the content with the following string "Tay-Tay"*/
 
+document.getElementById("name1").innerHTML = "Tay-Tay";
+
 /*2. DJ Khaled
 
 Find the element with the id of "position2":
 	- Replace the content with the following string "Project Manager"
 	- Change the background color to red
 */
-
+document.getElementById("position2").innerHTML = "project Manager";
+document.getElementById("position2").style.backgroundColor = "red";
 
 /*3. Piko Taro
 
@@ -20,6 +23,9 @@ Find the element with the id of "alias3":
 	- Change the font size to 40
 */
 
+document.getElementById("alias3").innerHTML = "Concatenation";
+document.getElementById("alias3").style.fontSize = "40px";
+
 /*4. Prince
 
 Find the element with the class name of "profile": 
@@ -27,11 +33,15 @@ Find the element with the class name of "profile":
 	- Change the styles of the font-family to Sans Serif
 */
 
+document.getElementsByClassName("profile").innerHTML = "Bush Did 9/11";
+document.getElementsByClassName("profile").style.fontFamily = "Sans Serif";
+
 /*5. Bruce Lee
 
 Find the element with the class name of "profile":
 	- Replace the content with a quote from the legend himself
 */
+
 
 
 
