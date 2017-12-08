@@ -33,15 +33,15 @@ Find the element with the class name of "profile":
 	- Change the styles of the font-family to Sans Serif
 */
 
-document.getElementsByClassName("profile")[0].innerHTML = "Bush Did 9/11";
-document.getElementsByClassName("profile").style.fontFamily = "Sans Serif";
+document.getElementsByClassName("profile")[0].innerHTML = "Want some poodin pops?";
+document.getElementsByClassName("profile")[0].style.fontFamily = "Sans Serif";
 
 /*5. Bruce Lee
 
 Find the element with the class name of "profile":
 	- Replace the content with a quote from the legend himself
 */
-
+document.getElementsByClassName("profile")[1].innerHTML = "Me better than Jackie Chan!";
 
 
 
@@ -50,7 +50,7 @@ Find the element with the class name of "profile":
 Find the element with the class name of "alias": 
 	- Replace the content with your favorite character that Sammy portrayed
 */
-
+document.getElementsByClassName("alias")[2].innerHTML = "Nick Fury";
 
 
 /*7. Peter Griffin
@@ -59,6 +59,7 @@ Create a div element and give it an id of "name7":
 	- Inside this div element, give it the contents of "Peter Griffin"
 	- Append this div element to the element with id "nameParent"
 */
+
  
 /*8. Tim Duncan
 
