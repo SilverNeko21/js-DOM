@@ -59,15 +59,25 @@ Create a div element and give it an id of "name7":
 	- Inside this div element, give it the contents of "Peter Griffin"
 	- Append this div element to the element with id "nameParent"
 */
-
- 
+var divElement = document.createElement('div');
+divElement.id = "name7";
+divElement.innerHTML = "Peter Griffin";
+document.getElementById("nameParent").appendChild(divElement);
 /*8. Tim Duncan
 
 Create a div element give it an id of "alias8":
 	- Inside this div element, give it the contents of "Old Man Riverwalk"
 	- Append this div element to the element with id "aliasParent"
 */
+var divElement2 = document.createElement('div');
+divElement2.id = "alias8";
+divElement2.innerHTML = "Old Man Riverwalk";
+document.getElementById('aliasParent').appendChild(divElement2);
 
 //Final Boss
 /*9. Without modifying the HTML file, create your own profile.*/
+var myName = document.createElement("div");
+myName.innerHTML = "Laron Gibson";
+document.getElementsByClassName('block3 col-sm-4')[2].appendChild(myName);
+myName.style.textAlign = "center";
 
