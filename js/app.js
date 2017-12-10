@@ -33,7 +33,7 @@ Find the element with the class name of "profile":
 	- Change the styles of the font-family to Sans Serif
 */
 
-document.getElementsByClassName("profile")[0].innerHTML = "Want some poodin pops?";
+document.getElementsByClassName("profile")[0].innerHTML = '"Want some poodin pops?"';
 document.getElementsByClassName("profile")[0].style.fontFamily = "Sans Serif";
 
 /*5. Bruce Lee
@@ -41,7 +41,7 @@ document.getElementsByClassName("profile")[0].style.fontFamily = "Sans Serif";
 Find the element with the class name of "profile":
 	- Replace the content with a quote from the legend himself
 */
-document.getElementsByClassName("profile")[1].innerHTML = "Me better than Jackie Chan!";
+document.getElementsByClassName("profile")[1].innerHTML = '"Me better than Jackie Chan!"';
 
 
 
@@ -76,8 +76,32 @@ document.getElementById('aliasParent').appendChild(divElement2);
 
 //Final Boss
 /*9. Without modifying the HTML file, create your own profile.*/
+//name
 var myName = document.createElement("div");
 myName.innerHTML = "Laron Gibson";
 document.getElementsByClassName('block3 col-sm-4')[2].appendChild(myName);
 myName.style.textAlign = "center";
 
+//profile pic
+var myPic = document.createElement("div");
+myPic.id = "silver";
+document.getElementsByClassName('block3 col-sm-4')[0].appendChild(myPic);
+document.getElementById('silver').src = "https://i.pinimg.com/originals/94/6f/4a/946f4ac622d7718502d05e60e9906240.jpg"
+
+//Role
+var myRole = document.createElement("div");
+myRole.innerHTML = "Coffe Boy";
+document.getElementsByClassName('block3 col-sm-4')[2].appendChild(myRole);
+myRole.style.textAlign = "center";
+
+//MovieRole
+var myMovieRole = document.createElement("div");
+myMovieRole.innerHTML = "Loli King";
+document.getElementsByClassName('block3 col-sm-4')[2].appendChild(myMovieRole);
+myMovieRole.style.textAlign = "center";
+
+//Quote
+var myQuote = document.createElement("div");
+myQuote.innerHTML = '"Flat Is Justice!"';
+document.getElementsByClassName('block3 col-sm-4')[2].appendChild(myQuote);
+myQuote.style.textAlign = "center";
