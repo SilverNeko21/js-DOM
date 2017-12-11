@@ -83,10 +83,7 @@ document.getElementsByClassName('block3 col-sm-4')[2].appendChild(myName);
 myName.style.textAlign = "center";
 
 //profile pic
-var myPic = document.createElement("div");
-myPic.id = "silver";
-document.getElementsByClassName('block3 col-sm-4')[0].appendChild(myPic);
-document.getElementById('silver').src = "https://i.pinimg.com/originals/94/6f/4a/946f4ac622d7718502d05e60e9906240.jpg"
+document.getElementsByClassName("block3 col-sm-4")[2].childNodes[0].src = "http://www.less-real.com/imagevault/uploaded/images/part7/Loli-31050.jpg";
 
 //Role
 var myRole = document.createElement("div");
